@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>ログイン</title>
 </head>
 <body>
-    <h1>ログイン</h1>
+    <h1>ログインしましょう</h1>
     <?php if(isset($loginError)): ?>
     <p　class="error"><?= $loginError ?></p>
     <?php endif; ?>
