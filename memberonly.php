@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ($_SESSION["authenticated"] != true) {
-    header("Location: login.php");
+    header("Location: index.php");
     exit;
 }
 $userid = $_SESSION["userid"]

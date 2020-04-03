@@ -18,6 +18,6 @@ session_destroy();
 </head>
 <body>
     <p>ログアウトしました</p>
-    <p><a href="login.php">ログインページへ</a></p>
+    <p><a href="index.php">ログインページへ</a></p>
 </body>
 </html>
